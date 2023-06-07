@@ -1,0 +1,27 @@
+.Header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	max-width: 900px;
+	width: 100%;
+	margin: 20px auto 0;
+	padding: 10px 20px;
+	background-color: #989292;
+}
+
+.logo {
+	background-color: #fff;
+	width: 100px;
+	height: 100px;
+}
+
+.list {
+	display: flex;
+	align-items: center;
+}
+
+.item {
+	text-transform: uppercase;
+	margin: 0 10px;
+}

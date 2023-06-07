@@ -1,0 +1,78 @@
+/* ---------------------------RESET CSS---------------------------------- */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+ul,
+ol {
+	padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+	border: 0;
+}
+
+button {
+	background-color: transparent;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+
+input::placeholder {
+	font: inherit;
+	font-size: inherit;
+	color: inherit;
+}
+
+/* ----------------------------STYLES-------------------------------- */
+
+.container {
+	max-width: 1220px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+}
