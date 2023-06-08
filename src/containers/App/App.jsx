@@ -5,6 +5,7 @@ import CartPage from '../CartPage/CartPage'
 import HomePage from '../HomePage/HomePage'
 import NotFoundPage from '../NotFoundPage/NotFoundPage'
 import s from './App.module.css'
+import CatalogPage from '../CatalogPage/CatalogPage'
 const App = () => {
 	return (
 		<>
@@ -17,6 +18,7 @@ const App = () => {
 						<Route path='/' element={<HomePage />} />
 
 						<Route path='/cart' element={<CartPage />} />
+						<Route path='/catalog' element={<CatalogPage />} />
 
 						<Route path='/*' element={<NotFoundPage />} />
 					</Routes>

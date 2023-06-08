@@ -1,0 +1,29 @@
+.main {
+	width: 100%;
+	background-color: #c68585;
+	padding: 10px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {}
+
+.sort {}
+
+.sort span {
+	margin-right: 5px;
+}
+
+.button {
+	background-color: red;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.dropdown {
+	background-color: #fff;
+}
